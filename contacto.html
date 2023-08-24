@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+
+        <meta charset="UTF-8 ">
+        <title>contactos</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <header>
+
+            <div class="caja">
+             <h1> <img class="foto" src="imagenes/Foto.png"  alt=" Logo barberia alura">   </h1>
+             <p class="CV">CV Yeison David Garcia Ramos </p>   
+              <nav>
+                    <ul>
+                        <li> <a href="index.html"> HOME </a></li>
+                        <li><a href="habilidades.html"> HABILIDADES </a></li>
+                        <li><a href="contacto.html"> CONTACTO </a></li>
+
+                    </ul>
+                </nav>
+            </div>
+         </header>
+         <main>
+            <form >
+                <label for="nombreyapellido">Nombre y apellido</label>
+                <input type="text" id ="nombreyapellido"class="input-padron" required>
+
+                <label for="correoelectronico">Correo Electronico</label>
+                <input type="email" id = "correoelectronico" class="input-padron" required placeholder="Email@dominio.com"> 
+
+                <label for="telefono">Telefono</label>
+                <input type="tel"id="telefono"class="input-padron" required placeholder="(XX) XXXXXXXX">
+
+                <label for=" Mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" required  >    
+                </textarea>
+
+                <fieldset>
+
+                    
+                       <legend> ¿Como le gustaria ser contactado? </legend>
+
+                        <label for="radio-email"> <input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                   
+
+                        <label for="radio-telefono"> <input type="radio"name="contacto" value="Telefono" id="radio-telefono">Telefono</label>
+                   
+
+                        <label for="radio-whatsapp"> <input type="radio" name="contacto" value="Whatsapp" id="radio-whatsapp"   checked >Whatsapp </label>
+                    
+                
+                </fieldset>
+
+
+                
+
+                        <label class="checkbox" > <input type="checkbox" checked>  ¿Le gustaria que lo contactara  ? </label>
+
+                <input type="submit" value="Enviar formulario" class="enviar">
+            </form>
+
+            
+         </main>
+
+         
+         <footer>
+          
+            <p class="copyright"> &copy Copyright </p>
+
+        </footer>
+    </body>
+
+
+</html>    
